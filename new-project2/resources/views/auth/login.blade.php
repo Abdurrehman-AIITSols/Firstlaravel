@@ -44,5 +44,9 @@
                 </x-button>
             </div>
         </form>
+        <p style='color:grey; margin-top: 30px; text-align:center'>
+            Don't Have an account:
+            <a href="/register" style='color:blue; text-decoration: underline;'>Register</a>
+        </p>
     </x-authentication-card>
 </x-guest-layout>

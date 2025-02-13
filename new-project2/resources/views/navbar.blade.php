@@ -123,9 +123,15 @@
 
     </nav>
     <div class="language-control">
-        <h3>
+    <div class="location">
+    <h3>
             Select your language
         </h3>
+        <h4 id="location">
+            User Location
+        </h4>
+    </div>    
+  
         <form action="{{ route('lang.change') }}" method="GET">
             <select name="lang" onchange="this.form.submit()">
                 <option value="en" {{ session('locale') == 'en' ? 'selected' : '' }}>English</option>

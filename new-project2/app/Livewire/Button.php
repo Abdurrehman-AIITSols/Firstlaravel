@@ -17,6 +17,9 @@ class Button extends Component
         // Update the visibility state based on the emitted value
         $this->isVisible = $isOpen;
     }
+    public function toHome(){
+        return Redirect::route('home');
+    }
 public function toContact(){
     return Redirect::route('Contact');
 }

@@ -23,6 +23,9 @@ public function toContact(){
 public function  toAbout(){
     return Redirect::route('About');
 }
+public function toService(){
+    return Redirect::route('Service');
+}
     public function render()
     {
         return view('livewire.button');

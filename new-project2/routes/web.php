@@ -22,4 +22,5 @@ Route::middleware([
 Route::get('lang/change', [LanguageController::class, 'change'])->name('lang.change');
 Route::get('/Contact-us',[HomeController::class, 'Contact'])->name('Contact');
 Route::get('/About-us',[HomeController::class, 'About'])->name('About');
+Route::get('/services',[HomeController::class, 'Service'])->name('Service');
 

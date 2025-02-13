@@ -1,4 +1,5 @@
 /* Style for the nav bar */
+
 #Main{
     width: 100%;
     display: flex;
@@ -6,6 +7,20 @@
     align-items: stretch;
     height: 100%;
     background-color: #ffffff;
+}
+#Service{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+#Service .container{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 aside {
     border-top-right-radius: 30px;

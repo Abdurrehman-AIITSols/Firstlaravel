@@ -10,7 +10,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
-
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -101,7 +101,8 @@
         <div class="navbar-menu">
             <a href="/">{{ __('message.home') }}</a>
             <a href="{{ route('About') }}">{{ __('message.about') }}</a>
-            <a href="#">{{ __('message.Contact') }}</a>
+            <a href="{{ route('Contact') }}">{{ __('message.Contact') }}</a>
+            <a href="{{ route('Service') }}">{{ __('message.Service') }}</a>
             <a href="{{ route('dashboard') }}">            {{ __('message.dashboard') }}
             </a>
         </div>

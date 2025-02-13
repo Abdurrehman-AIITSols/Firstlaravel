@@ -2,7 +2,7 @@
 <div>
     <button wire:click="toHome" class="btn2 btn-home">Home</button>
     <br>
-    <button wire:click="toHome" class="btn2 btn-service">Service</button>
+    <button wire:click="toService" class="btn2 btn-service">Service</button>
     <br>
     <button wire:click="toContact" class="btn2 btn-contact">Contact us</button>
     <br>
